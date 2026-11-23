@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2 Formatting Text HTML</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf0f8;
+            margin: 0;
+            padding: 20px;
+            color: #222;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        header {
+            text-align: center;
+            background-color: #172b4d;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .content {
+            display: flex;
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .bagian {
+            width: 50%;
+            padding: 20px;
+            background-color: #f5f8fc;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #174ea6;
+        }
+
+        blockquote {
+            background-color: #e1eaf8;
+            padding: 15px;
+            border-left: 5px solid #174ea6;
+        }
+
+        pre {
+            background-color: #172b4d;
+            color: #00ff99;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+
+        address {
+            font-style: normal;
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #172b4d;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 700px) {
+            .content {
+                flex-direction: column;
+            }
+
+            .bagian {
+                width: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>TUGAS 2 FORMATTING TEXT HTML</h1>
+        <p>Belajar HTML dan Mengenal Dunia Pemrograman</p>
+    </header>
+
+    <div class="content">
+
+        <!-- BAGIAN KIRI -->
+        <div class="bagian">
+
+            <h2>Mengenal Dunia Pemrograman</h2>
+
+            <p>
+                Halaman ini berisi contoh penggunaan berbagai tag
+                formatting text dengan tema pemrograman.
+            </p>
+
+            <hr>
+
+            <h2>Dasar Pemrograman</h2>
+
+            <p>
+                Belajar pemrograman membantu kita membuat berbagai aplikasi.
+                Menguasai algoritma, logika, dan coding menjadi
+                <strong>fondasi seorang programmer.</strong>
+            </p>
+
+            <p>
+                Seseorang programmer harus <b>teliti</b> saat menulis kode
+                dan selalu <em>menganalisis</em> setiap kesalahan.
+                Kemampuan yang perlu dilatih adalah
+                <i>berpikir logis dan memecahkan masalah.</i>
+            </p>
+
+            <p>
+                Materi ini adalah <mark>panduan singkat bagi pemula.</mark>
+                Dahulu, banyak program dibuat dengan cara
+                <del>manual</del>, kini dibantu oleh
+                <ins>framework dan berbagai tools modern.</ins>
+            </p>
+
+            <p>
+                Contoh tipe data: x<sub>1</sub> dan y<sub>2</sub>.
+                Pada pemrograman, kompleksitas O(n<sup>2</sup>)
+                sering ditemui pada algoritma sederhana.
+            </p>
+
+            <p>
+                <small>Belajar coding membutuhkan latihan dan ketekunan.</small>
+            </p>
+
+            <hr>
+
+            <h2>Kutipan Motivasi</h2>
+
+            <blockquote>
+                "Kode yang baik bukan hanya berjalan,
+                tetapi juga mudah dipahami dan dipelihara."
+            </blockquote>
+
+            <hr>
+
+            <h2>Contoh Kode Program</h2>
+
+            <p>
+                <abbr title="JavaScript">JS</abbr> digunakan untuk membuat
+                halaman web menjadi lebih interaktif, misalnya:
+            </p>
+
+            <pre><code>console.log("Halo, Programmer!");</code></pre>
+
+            <hr>
+
+            <h2>Jadwal Praktikum</h2>
+
+            <p>
+                Praktikum pemrograman dilaksanakan pada
+                <time datetime="2026-08-03">3 Agustus 2026</time>.
+                Peserta diminta membuat program sederhana menggunakan
+                JavaScript.
+            </p>
+
+            <hr>
+
+            <h2>Informasi Kelas</h2>
+
+            <address>
+                <b>Laboratorium Komputer</b><br>
+                Kelas Dasar Pemrograman Web<br>
+                Jl. Teknologi No. 15, Semarang, Jawa Tengah<br>
+                Email: programming@sekolah.sch.id<br>
+                Telepon: (024) 7654321
+            </address>
+
+        </div>
+
+
+        <!-- BAGIAN KANAN -->
+        <div class="bagian">
+
+            <h2>Belajar Formatting Text pada HTML</h2>
+
+            <p>
+                HTML merupakan bahasa markup yang digunakan untuk
+                membuat struktur halaman website.
+            </p>
+
+            <hr>
+
+            <h2>Macam-Macam Formatting Text</h2>
+
+            <p>
+                1. Tag <b>strong</b> untuk memberikan penekanan penting.
+                <strong>Ini contoh teks strong.</strong>
+            </p>
+
+            <p>
+                2. Tag <b>b</b> untuk membuat teks tebal.
+                <b>Ini contoh teks bold.</b>
+            </p>
+
+            <p>
+                3. Tag <b>em</b> untuk memberikan penekanan.
+                <em>Ini contoh teks emphasis.</em>
+            </p>
+
+            <p>
+                4. Tag <b>i</b> untuk membuat teks miring.
+                <i>Ini contoh teks italic.</i>
+            </p>
+
+            <p>
+                5. Tag <b>mark</b> untuk menandai teks.
+                <mark>Ini contoh teks highlight.</mark>
+            </p>
+
+            <p>
+                6. Tag <b>small</b> untuk membuat teks kecil.
+                <small>Ini contoh teks small.</small>
+            </p>
+
+            <p>
+                7. Tag <b>del</b> untuk teks yang dihapus.
+                <del>Ini contoh teks del.</del>
+            </p>
+
+            <p>
+                8. Tag <b>ins</b> untuk teks tambahan.
+                <ins>Ini contoh teks ins.</ins>
+            </p>
+
+            <p>
+                9. Tag <b>sub</b> untuk teks di bawah.
+                H<sub>2</sub>O
+            </p>
+
+            <p>
+                10. Tag <b>sup</b> untuk teks di atas.
+                X<sup>2</sup>
+            </p>
+
+            <hr>
+
+            <h2>Kutipan Motivasi Programmer</h2>
+
+            <blockquote>
+                "Setiap programmer hebat pernah menjadi pemula.
+                Terus belajar, mencoba, dan jangan takut melakukan kesalahan."
+            </blockquote>
+
+            <hr>
+
+            <h2>Contoh Kode HTML</h2>
+
+            <p>
+                Tag <abbr title="HyperText Markup Language">HTML</abbr>
+                digunakan untuk membuat struktur website.
+            </p>
+
+            <pre><code>
+&lt;h1&gt;Halo Dunia!&lt;/h1&gt;
+&lt;p&gt;Saya sedang belajar HTML.&lt;/p&gt;
+            </code></pre>
+
+            <hr>
+
+            <h2>Waktu Belajar</h2>
+
+            <p>
+                Jadwal belajar dimulai pada
+                <time datetime="2026-08-03T08:00">
+                    pukul 08.00 WIB, 3 Agustus 2026
+                </time>.
+            </p>
+
+            <hr>
+
+            <h2>Informasi Laboratorium</h2>
+
+            <address>
+                Laboratorium Pemrograman<br>
+                Ruang Praktik Komputer<br>
+                Semangat belajar coding!
+            </address>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 | Tugas HTML Dasar Pemrograman</p>
+    </footer>
+
+</div>
+
+</body>
+              </html>
+              
